@@ -1,0 +1,130 @@
+{
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Glog.AI",
+          "organization": "Glog.AI",
+          "fullName": "Glog, Making software more secure",
+          "version": "1.0.0",
+          "semanticVersion": "1.0.0",
+          "informationUri": "https://www.glog.ai",
+          "rules": [
+            {
+              "id": "glog-e6b33b7b-d7fc-43d9-86aa-13847214c288",
+              "help": {
+                "text": "",
+                "markdown": "## Description\n\nThe `urlretrieve(url, filepath)` function in Python's `urllib` library is used to retrieve a file from a given URL and store it in a local file. This function is vulnerable to a security issue known as \"Vulnerability in URL Audit for Permitted Schemes\". This vulnerability occurs when the function is used to retrieve a file from a URL that uses a scheme that is not intended to be allowed. An attacker could exploit this vulnerability by providing a URL that uses a scheme that allows them to execute arbitrary code or access sensitive information.\n\n## Mitigation Advice\n\nTo mitigate this vulnerability, you should validate the URL before passing it to the `urlretrieve` function. Specifically, you should check that the scheme of the URL is one of the schemes that you intend to allow. For example, if you only intend to allow URLs that use the `http` or `https` schemes, you should reject any URL that uses a different scheme.\n\n## Source Code Fix Recommendation\n\nHere is an example of how you can validate the URL before passing it to the `urlretrieve` function:\n\n```python\nfrom urllib.parse import urlparse\nfrom urllib.request import urlretrieve\n\ndef safe_urlretrieve(url, filepath):\n    scheme = urlparse(url).scheme\n    if scheme not in ['http', 'https']:\n        raise ValueError('Invalid URL scheme: {}'.format(scheme))\n    urlretrieve(url, filepath)\n```\n\nIn this example, the `safe_urlretrieve` function first parses the URL to get its scheme. If the scheme is not `http` or `https`, the function raises a `ValueError`. Otherwise, it calls the `urlretrieve` function.\n\n## Library Dependencies\n\nThe code example requires the following Python standard library modules:\n\n- `urllib.parse`\n- `urllib.request`\n\n## References\n\n- [CWE-918: Server-Side Request Forgery (SSRF)](https://cwe.mitre.org/data/definitions/918.html)\n\nPlease note that the links provided are active and accessible to anonymous users at the time of writing."
+              },
+              "properties": {
+                "tags": [
+                  "B310"
+                ]
+              }
+            },
+            {
+              "id": "glog-020904be-6ca2-4888-9a87-7d0938cf2467",
+              "help": {
+                "text": "",
+                "markdown": "## Description\n\n\"Potential Temp File/Directory Security Risk\" vulnerability in Python refers to the insecure usage of temporary files or directories. This vulnerability can lead to several security risks such as race conditions, unauthorized file access, or information disclosure. An attacker can exploit this vulnerability by predicting the name of the temporary file or directory and then manipulating it.\n\nIn the provided code snippet, the `download_path` is set to \"/tmp\", which is a common directory for temporary files. This could potentially be exploited if an attacker can predict the names of the files being downloaded.\n\n## Mitigation Advice\n\nTo mitigate this vulnerability, you should:\n\n- Use secure methods for creating temporary files or directories. Python's `tempfile` module provides several functions for this purpose, such as `tempfile.mkstemp()` and `tempfile.mkdtemp()`.\n- Ensure that temporary files or directories are created with appropriate permissions, so that only the intended users can access them.\n- Delete temporary files or directories as soon as they are no longer needed.\n\n## Source Code Fix Recommendation\n\nHere is a recommended fix for the provided code snippet:\n\n```python\nimport tempfile\nimport os\n\n# Create a secure temporary directory\nwith tempfile.TemporaryDirectory() as temp_dir:\n    # Use the temporary directory\n    download_path = temp_dir\n    # Your code here...\n```\n\nIn this code, `tempfile.TemporaryDirectory()` is used to create a secure temporary directory. The `with` statement ensures that the directory is automatically deleted when it is no longer needed.\n\n## Library Dependencies\n\nThe code example requires the following Python standard library modules:\n\n- `tempfile`\n- `os`\n\n## References\n\n- [CWE-377: Insecure Temporary File](https://cwe.mitre.org/data/definitions/377.html)"
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            }
+          ],
+          "language": "en-US",
+          "contents": [
+            "localizedData",
+            "nonLocalizedData"
+          ],
+          "isComprehensive": false
+        }
+      },
+      "language": "en-US",
+      "results": [
+        {
+          "ruleId": "glog-e6b33b7b-d7fc-43d9-86aa-13847214c288",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "\"Vulnerability in URL Audit for Permitted Schemes\""
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "install_cuda.py"
+                },
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 9,
+                  "endLine": 33,
+                  "endColumn": 35,
+                  "snippet": {
+                    "text": "        urlretrieve(url, filepath)\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 32,
+                  "endLine": 34,
+                  "snippet": {
+                    "text": "        print(f\"Downloading CUDA version {version} from {url}...\")\n        urlretrieve(url, filepath)\n    else:\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "HIGH"
+          }
+        },
+        {
+          "ruleId": "glog-020904be-6ca2-4888-9a87-7d0938cf2467",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Potential Temp File/Directory Security Risk"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "install_cuda.py"
+                },
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 21,
+                  "endLine": 71,
+                  "endColumn": 27,
+                  "snippet": {
+                    "text": "    download_path = \"/tmp\"  # default download path\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 70,
+                  "endLine": 72,
+                  "snippet": {
+                    "text": "    base_path = user_base_path  # default to user-specific installation\n    download_path = \"/tmp\"  # default download path\n\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        }
+      ],
+      "newlineSequences": [
+        "\r\n",
+        "\n"
+      ]
+    }
+  ]
+}
