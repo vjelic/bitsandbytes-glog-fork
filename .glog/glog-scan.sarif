@@ -12,55 +12,7 @@
           "informationUri": "https://www.glog.ai",
           "rules": [
             {
-              "id": "4416c895-6b4b-3960-b8b9-697b483f9684",
-              "name": "resources.rules.return-not-in-function",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.return-not-in-function"
-              },
-              "fullDescription": {
-                "text": "`return` only makes sense inside a function"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "warning"
-              },
-              "help": {
-                "text": "`return` only makes sense inside a function\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "`return` only makes sense inside a function\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "resources.rules.return-not-in-function"
-                ]
-              }
-            },
-            {
               "id": "ef75cd3e-dd7f-380f-81a3-5556d6c4d054",
-              "name": "resources.rules.return-not-in-function",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.return-not-in-function"
-              },
-              "fullDescription": {
-                "text": "`return` only makes sense inside a function"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "warning"
-              },
-              "help": {
-                "text": "`return` only makes sense inside a function\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "`return` only makes sense inside a function\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "resources.rules.return-not-in-function"
-                ]
-              }
-            },
-            {
-              "id": "ef5aca1c-2ee3-3053-bbd3-f57fe02a40b1",
               "name": "resources.rules.return-not-in-function",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.return-not-in-function"
@@ -108,55 +60,55 @@
               }
             },
             {
+              "id": "4416c895-6b4b-3960-b8b9-697b483f9684",
+              "name": "resources.rules.return-not-in-function",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.return-not-in-function"
+              },
+              "fullDescription": {
+                "text": "`return` only makes sense inside a function"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "`return` only makes sense inside a function\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "`return` only makes sense inside a function\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.return-not-in-function"
+                ]
+              }
+            },
+            {
+              "id": "ef5aca1c-2ee3-3053-bbd3-f57fe02a40b1",
+              "name": "resources.rules.return-not-in-function",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.return-not-in-function"
+              },
+              "fullDescription": {
+                "text": "`return` only makes sense inside a function"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "`return` only makes sense inside a function\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "`return` only makes sense inside a function\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.return-not-in-function"
+                ]
+              }
+            },
+            {
               "id": "e2f4a91b-5573-32d2-ad11-ddb2dc17c34d",
-              "name": "resources.rules.return-not-in-function",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.return-not-in-function"
-              },
-              "fullDescription": {
-                "text": "`return` only makes sense inside a function"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "warning"
-              },
-              "help": {
-                "text": "`return` only makes sense inside a function\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "`return` only makes sense inside a function\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "resources.rules.return-not-in-function"
-                ]
-              }
-            },
-            {
-              "id": "d30e1513-a702-32b1-aba7-db7f40e48de8",
-              "name": "resources.rules.return-not-in-function",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.return-not-in-function"
-              },
-              "fullDescription": {
-                "text": "`return` only makes sense inside a function"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "warning"
-              },
-              "help": {
-                "text": "`return` only makes sense inside a function\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "`return` only makes sense inside a function\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "resources.rules.return-not-in-function"
-                ]
-              }
-            },
-            {
-              "id": "801de2a5-291b-3f54-952f-b241535e1e2c",
               "name": "resources.rules.return-not-in-function",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.return-not-in-function"
@@ -204,7 +156,7 @@
               }
             },
             {
-              "id": "50d89f00-9064-3306-9c88-91b30c3b0c42",
+              "id": "d30e1513-a702-32b1-aba7-db7f40e48de8",
               "name": "resources.rules.return-not-in-function",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.return-not-in-function"
@@ -252,6 +204,30 @@
               }
             },
             {
+              "id": "032986a7-16ea-3682-9fe8-30892bd26cb9",
+              "name": "resources.rules.return-not-in-function",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.return-not-in-function"
+              },
+              "fullDescription": {
+                "text": "`return` only makes sense inside a function"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "`return` only makes sense inside a function\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "`return` only makes sense inside a function\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.return-not-in-function"
+                ]
+              }
+            },
+            {
               "id": "b81d1bc8-dbac-3d61-b074-db5a6a9bdfac",
               "name": "resources.rules.return-not-in-function",
               "shortDescription": {
@@ -276,7 +252,7 @@
               }
             },
             {
-              "id": "032986a7-16ea-3682-9fe8-30892bd26cb9",
+              "id": "50d89f00-9064-3306-9c88-91b30c3b0c42",
               "name": "resources.rules.return-not-in-function",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.return-not-in-function"
@@ -324,30 +300,6 @@
               }
             },
             {
-              "id": "aebfa9b1-f8f4-3275-83ec-12cd21f1bcf0",
-              "name": "resources.rules.insecure-subprocess-use",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.insecure-subprocess-use"
-              },
-              "fullDescription": {
-                "text": "The Python 'subprocess' module called with 'shell=True' may allow for shell injection"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "warning"
-              },
-              "help": {
-                "text": "The Python 'subprocess' module called with 'shell=True' may allow for shell injection\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "The Python 'subprocess' module called with 'shell=True' may allow for shell injection\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "resources.rules.insecure-subprocess-use"
-                ]
-              }
-            },
-            {
               "id": "879946a2-428a-3dbb-8fc1-a5acbcf7554c",
               "name": "resources.rules.return-not-in-function",
               "shortDescription": {
@@ -368,6 +320,30 @@
                 "precision": "very-high",
                 "tags": [
                   "resources.rules.return-not-in-function"
+                ]
+              }
+            },
+            {
+              "id": "aebfa9b1-f8f4-3275-83ec-12cd21f1bcf0",
+              "name": "resources.rules.insecure-subprocess-use",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.insecure-subprocess-use"
+              },
+              "fullDescription": {
+                "text": "The Python 'subprocess' module called with 'shell=True' may allow for shell injection"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "The Python 'subprocess' module called with 'shell=True' may allow for shell injection\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "The Python 'subprocess' module called with 'shell=True' may allow for shell injection\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.insecure-subprocess-use"
                 ]
               }
             },
@@ -492,26 +468,26 @@
               }
             },
             {
-              "id": "d7686cb2-f9ca-321b-94b6-b34aaa073e3e",
-              "name": "resources.rules.raptor-suspicious-assert",
+              "id": "f43d20df-d2d3-3415-b34d-dabfadb3d7a2",
+              "name": "resources.rules.raptor-mismatched-memory-management-cpp",
               "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.raptor-suspicious-assert"
+                "text": "Opengrep Finding: resources.rules.raptor-mismatched-memory-management-cpp"
               },
               "fullDescription": {
-                "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks."
+                "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase."
               },
               "defaultConfiguration": {
                 "enabled": true,
-                "level": "warning"
+                "level": "note"
               },
               "help": {
-                "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://legends2k.github.io/note/assert_vs_if/](https://legends2k.github.io/note/assert_vs_if/)\n - [https://github.com/struct/mms](https://github.com/struct/mms)\n"
+                "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://cwe.mitre.org/data/definitions/762](https://cwe.mitre.org/data/definitions/762)\n - [https://cwe.mitre.org/data/definitions/590](https://cwe.mitre.org/data/definitions/590)\n - [https://github.com/struct/mms](https://github.com/struct/mms)\n - [https://docs.microsoft.com/en-us/cpp/sanitizers/asan-error-examples](https://docs.microsoft.com/en-us/cpp/sanitizers/asan-error-examples)\n"
               },
               "properties": {
                 "precision": "very-high",
                 "tags": [
-                  "resources.rules.raptor-suspicious-assert"
+                  "resources.rules.raptor-mismatched-memory-management-cpp"
                 ]
               }
             },
@@ -540,26 +516,26 @@
               }
             },
             {
-              "id": "f43d20df-d2d3-3415-b34d-dabfadb3d7a2",
-              "name": "resources.rules.raptor-mismatched-memory-management-cpp",
+              "id": "d7686cb2-f9ca-321b-94b6-b34aaa073e3e",
+              "name": "resources.rules.raptor-suspicious-assert",
               "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.raptor-mismatched-memory-management-cpp"
+                "text": "Opengrep Finding: resources.rules.raptor-suspicious-assert"
               },
               "fullDescription": {
-                "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase."
+                "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks."
               },
               "defaultConfiguration": {
                 "enabled": true,
-                "level": "note"
+                "level": "warning"
               },
               "help": {
-                "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://cwe.mitre.org/data/definitions/762](https://cwe.mitre.org/data/definitions/762)\n - [https://cwe.mitre.org/data/definitions/590](https://cwe.mitre.org/data/definitions/590)\n - [https://github.com/struct/mms](https://github.com/struct/mms)\n - [https://docs.microsoft.com/en-us/cpp/sanitizers/asan-error-examples](https://docs.microsoft.com/en-us/cpp/sanitizers/asan-error-examples)\n"
+                "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://legends2k.github.io/note/assert_vs_if/](https://legends2k.github.io/note/assert_vs_if/)\n - [https://github.com/struct/mms](https://github.com/struct/mms)\n"
               },
               "properties": {
                 "precision": "very-high",
                 "tags": [
-                  "resources.rules.raptor-mismatched-memory-management-cpp"
+                  "resources.rules.raptor-suspicious-assert"
                 ]
               }
             },
@@ -588,7 +564,7 @@
               }
             },
             {
-              "id": "50a3b19f-5548-32b9-bcb4-ff7e34454047",
+              "id": "bea4e990-bad5-39ef-8afc-825c896d575a",
               "name": "resources.rules.raptor-suspicious-assert",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.raptor-suspicious-assert"
@@ -612,7 +588,7 @@
               }
             },
             {
-              "id": "bea4e990-bad5-39ef-8afc-825c896d575a",
+              "id": "50a3b19f-5548-32b9-bcb4-ff7e34454047",
               "name": "resources.rules.raptor-suspicious-assert",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.raptor-suspicious-assert"
@@ -768,33 +744,33 @@
       "language": "en-US",
       "results": [
         {
-          "ruleId": "4416c895-6b4b-3960-b8b9-697b483f9684",
+          "ruleId": "c66b4dd7-503e-38d9-aeb0-b59eceba7f86",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "`return` only makes sense inside a function"
+            "text": "time.sleep() call; did you mean to leave this in?"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "benchmarking/switchback/speed_benchmark.py",
+                  "uri": "benchmarking/optimizer_benchmark.py",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 84,
-                  "startColumn": 50,
-                  "endLine": 84,
-                  "endColumn": 65,
+                  "startLine": 37,
+                  "startColumn": 5,
+                  "endLine": 37,
+                  "endColumn": 18,
                   "snippet": {
-                    "text": "                get_time(\"standard_fwd\", lambda: x.matmul(w.t()), info)"
+                    "text": "    time.sleep(5)"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_0"
+            "matchBasedId/v1": "a2010f0e70bb20faa663bf3dfc9c2ee8e9b186e24e7b2aa3fce370ce80255a3a84ba9efe1a122c06e34787bc519cb383f6d5c66a5f45fdc822449f5be1b86044_0"
           },
           "properties": {}
         },
@@ -830,6 +806,37 @@
           "properties": {}
         },
         {
+          "ruleId": "4416c895-6b4b-3960-b8b9-697b483f9684",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "`return` only makes sense inside a function"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "benchmarking/switchback/speed_benchmark.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 50,
+                  "endLine": 84,
+                  "endColumn": 65,
+                  "snippet": {
+                    "text": "                get_time(\"standard_fwd\", lambda: x.matmul(w.t()), info)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_0"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "ef5aca1c-2ee3-3053-bbd3-f57fe02a40b1",
           "kind": "fail",
           "level": "warning",
@@ -857,37 +864,6 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_2"
-          },
-          "properties": {}
-        },
-        {
-          "ruleId": "c66b4dd7-503e-38d9-aeb0-b59eceba7f86",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "time.sleep() call; did you mean to leave this in?"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "benchmarking/optimizer_benchmark.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 37,
-                  "startColumn": 5,
-                  "endLine": 37,
-                  "endColumn": 18,
-                  "snippet": {
-                    "text": "    time.sleep(5)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "a2010f0e70bb20faa663bf3dfc9c2ee8e9b186e24e7b2aa3fce370ce80255a3a84ba9efe1a122c06e34787bc519cb383f6d5c66a5f45fdc822449f5be1b86044_0"
           },
           "properties": {}
         },
@@ -923,7 +899,7 @@
           "properties": {}
         },
         {
-          "ruleId": "d30e1513-a702-32b1-aba7-db7f40e48de8",
+          "ruleId": "ac8e5aab-43e7-35a9-bc8d-5d9900c5f1cc",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -937,19 +913,19 @@
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 100,
+                  "startLine": 116,
                   "startColumn": 29,
-                  "endLine": 106,
-                  "endColumn": 22,
+                  "endLine": 116,
+                  "endColumn": 117,
                   "snippet": {
-                    "text": "                    lambda: int8_matmul_rowwise_dequantize(\n                        g_int8,\n                        wt_int8.t(),\n                        state_x_rowwise,\n                        state_w_rowwise,\n                        None,\n                    ),"
+                    "text": "                    lambda: int8_matmul_mixed_dequantize(g_int8, wt_int8.t(), state_x_rowwise, state_w_global, None),"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_4"
+            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_6"
           },
           "properties": {}
         },
@@ -985,68 +961,6 @@
           "properties": {}
         },
         {
-          "ruleId": "ac8e5aab-43e7-35a9-bc8d-5d9900c5f1cc",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "`return` only makes sense inside a function"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "benchmarking/switchback/speed_benchmark.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 116,
-                  "startColumn": 29,
-                  "endLine": 116,
-                  "endColumn": 117,
-                  "snippet": {
-                    "text": "                    lambda: int8_matmul_mixed_dequantize(g_int8, wt_int8.t(), state_x_rowwise, state_w_global, None),"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_6"
-          },
-          "properties": {}
-        },
-        {
-          "ruleId": "50d89f00-9064-3306-9c88-91b30c3b0c42",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "`return` only makes sense inside a function"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "benchmarking/switchback/speed_benchmark.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 121,
-                  "startColumn": 56,
-                  "endLine": 121,
-                  "endColumn": 75,
-                  "snippet": {
-                    "text": "                get_time(\"w_quantize_rowwise\", lambda: quantize_rowwise(w), info)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_9"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "c70e9a4d-85ad-3876-9f27-2b80ffada360",
           "kind": "fail",
           "level": "warning",
@@ -1074,37 +988,6 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_8"
-          },
-          "properties": {}
-        },
-        {
-          "ruleId": "b81d1bc8-dbac-3d61-b074-db5a6a9bdfac",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "`return` only makes sense inside a function"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "benchmarking/switchback/speed_benchmark.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 119,
-                  "startColumn": 56,
-                  "endLine": 119,
-                  "endColumn": 75,
-                  "snippet": {
-                    "text": "                get_time(\"x_quantize_rowwise\", lambda: quantize_rowwise(x), info)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_7"
           },
           "properties": {}
         },
@@ -1140,6 +1023,68 @@
           "properties": {}
         },
         {
+          "ruleId": "b81d1bc8-dbac-3d61-b074-db5a6a9bdfac",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "`return` only makes sense inside a function"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "benchmarking/switchback/speed_benchmark.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 119,
+                  "startColumn": 56,
+                  "endLine": 119,
+                  "endColumn": 75,
+                  "snippet": {
+                    "text": "                get_time(\"x_quantize_rowwise\", lambda: quantize_rowwise(x), info)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_7"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "50d89f00-9064-3306-9c88-91b30c3b0c42",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "`return` only makes sense inside a function"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "benchmarking/switchback/speed_benchmark.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 56,
+                  "endLine": 121,
+                  "endColumn": 75,
+                  "snippet": {
+                    "text": "                get_time(\"w_quantize_rowwise\", lambda: quantize_rowwise(w), info)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_9"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "dc7e9ed7-f4e5-3dd8-a34b-8c890f9045e8",
           "kind": "fail",
           "level": "warning",
@@ -1171,37 +1116,6 @@
           "properties": {}
         },
         {
-          "ruleId": "aebfa9b1-f8f4-3275-83ec-12cd21f1bcf0",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "The Python 'subprocess' module called with 'shell=True' may allow for shell injection"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bitsandbytes/backends/utils.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 80,
-                  "startColumn": 14,
-                  "endLine": 85,
-                  "endColumn": 6,
-                  "snippet": {
-                    "text": "    output = subprocess.run(\n        \"pip list | grep habana-torch-plugin\",\n        shell=True,\n        text=True,\n        capture_output=True,\n    )"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "a873376543b530613b1b6f75d3b73524bf72ed42bb2cb05a08fe5c1d3ff4516c029595d6550f98d9c2d3a48ccc18d82d84abf1f2ba0909d245f5a16845baeb8a_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "879946a2-428a-3dbb-8fc1-a5acbcf7554c",
           "kind": "fail",
           "level": "warning",
@@ -1229,6 +1143,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_12"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "aebfa9b1-f8f4-3275-83ec-12cd21f1bcf0",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "The Python 'subprocess' module called with 'shell=True' may allow for shell injection"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bitsandbytes/backends/utils.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 14,
+                  "endLine": 85,
+                  "endColumn": 6,
+                  "snippet": {
+                    "text": "    output = subprocess.run(\n        \"pip list | grep habana-torch-plugin\",\n        shell=True,\n        text=True,\n        capture_output=True,\n    )"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "a873376543b530613b1b6f75d3b73524bf72ed42bb2cb05a08fe5c1d3ff4516c029595d6550f98d9c2d3a48ccc18d82d84abf1f2ba0909d245f5a16845baeb8a_0"
           },
           "properties": {}
         },
@@ -1388,33 +1333,33 @@
           "properties": {}
         },
         {
-          "ruleId": "d7686cb2-f9ca-321b-94b6-b34aaa073e3e",
+          "ruleId": "f43d20df-d2d3-3415-b34d-dabfadb3d7a2",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks."
+            "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase."
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "include/Algo-Direct-Common.h",
+                  "uri": "include/AAlloc.h",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 89,
-                  "startColumn": 9,
-                  "endLine": 94,
-                  "endColumn": 10,
+                  "startLine": 64,
+                  "startColumn": 13,
+                  "endLine": 64,
+                  "endColumn": 33,
                   "snippet": {
-                    "text": "        myassert((ifmax < std::numeric_limits<uint32>::max() - (Gap - 1)),\n            \"Problem unfeasible: index size exceeds uint32 capacity:\"\n            << \" D[N] =\" << Dn\n            << \", H =\" << scaler\n            << \", H D[n] =\" << ifmax << \"\\n\"\n        );"
+                    "text": "            delete [] m_storage;"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "67054fd797f1289fe0a62c16c6d444ea1555b9b7a720830ffa8a6b34137c950e6bb6d2891fbb47027e7c9afd85c4f1861eba384a6ea5f12e0c8aebf9c2cdb6c7_0"
+            "matchBasedId/v1": "2c15aa4a51656a19b97ab91eddb72a86e41be0a71dc68a0ca5997c60b902cd1cd618d5fb7be4ccd33313ad24657723f84e900fa8b6cec9efb90fa202cb955461_0"
           },
           "properties": {}
         },
@@ -1450,33 +1395,33 @@
           "properties": {}
         },
         {
-          "ruleId": "f43d20df-d2d3-3415-b34d-dabfadb3d7a2",
+          "ruleId": "d7686cb2-f9ca-321b-94b6-b34aaa073e3e",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "The software attempts to return a memory resource to the system, but it calls a release function that is not compatible with the function that was originally used to allocate that resource. Due to inherent limitations of Semgrep, this rule might generate many false positives and should therefore be customized for your codebase."
+            "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks."
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "include/AAlloc.h",
+                  "uri": "include/Algo-Direct-Common.h",
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 64,
-                  "startColumn": 13,
-                  "endLine": 64,
-                  "endColumn": 33,
+                  "startLine": 89,
+                  "startColumn": 9,
+                  "endLine": 94,
+                  "endColumn": 10,
                   "snippet": {
-                    "text": "            delete [] m_storage;"
+                    "text": "        myassert((ifmax < std::numeric_limits<uint32>::max() - (Gap - 1)),\n            \"Problem unfeasible: index size exceeds uint32 capacity:\"\n            << \" D[N] =\" << Dn\n            << \", H =\" << scaler\n            << \", H D[n] =\" << ifmax << \"\\n\"\n        );"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "2c15aa4a51656a19b97ab91eddb72a86e41be0a71dc68a0ca5997c60b902cd1cd618d5fb7be4ccd33313ad24657723f84e900fa8b6cec9efb90fa202cb955461_0"
+            "matchBasedId/v1": "67054fd797f1289fe0a62c16c6d444ea1555b9b7a720830ffa8a6b34137c950e6bb6d2891fbb47027e7c9afd85c4f1861eba384a6ea5f12e0c8aebf9c2cdb6c7_0"
           },
           "properties": {}
         },
@@ -1512,37 +1457,6 @@
           "properties": {}
         },
         {
-          "ruleId": "50a3b19f-5548-32b9-bcb4-ff7e34454047",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "include/Algo-Direct-Common.h",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 224,
-                  "startColumn": 9,
-                  "endLine": 224,
-                  "endColumn": 77,
-                  "snippet": {
-                    "text": "        myassert((range < std::numeric_limits<T>::max()), \"range too large\");"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "001333dae5e73f926a00c686ab0ff612d9314161ea15f5c5a74b435e234634d3104d35368814d387581650e2ee3b038a6b82f7bf2620daf9b95c0ecedb586f9e_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "bea4e990-bad5-39ef-8afc-825c896d575a",
           "kind": "fail",
           "level": "warning",
@@ -1570,6 +1484,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "d9bfd7501470d18fee1265382a4b1c1c2a582eb9970756fe71bb7271c6b4dea4509ceb0e83c1958c5152fc70911e2660b8919c24842e0d559615e65774a17ed5_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "50a3b19f-5548-32b9-bcb4-ff7e34454047",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "include/Algo-Direct-Common.h",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 224,
+                  "startColumn": 9,
+                  "endLine": 224,
+                  "endColumn": 77,
+                  "snippet": {
+                    "text": "        myassert((range < std::numeric_limits<T>::max()), \"range too large\");"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "001333dae5e73f926a00c686ab0ff612d9314161ea15f5c5a74b435e234634d3104d35368814d387581650e2ee3b038a6b82f7bf2620daf9b95c0ecedb586f9e_0"
           },
           "properties": {}
         },
