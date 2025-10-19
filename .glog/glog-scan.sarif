@@ -60,6 +60,30 @@
               }
             },
             {
+              "id": "ef5aca1c-2ee3-3053-bbd3-f57fe02a40b1",
+              "name": "resources.rules.return-not-in-function",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.return-not-in-function"
+              },
+              "fullDescription": {
+                "text": "`return` only makes sense inside a function"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "`return` only makes sense inside a function\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "`return` only makes sense inside a function\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.return-not-in-function"
+                ]
+              }
+            },
+            {
               "id": "4416c895-6b4b-3960-b8b9-697b483f9684",
               "name": "resources.rules.return-not-in-function",
               "shortDescription": {
@@ -84,7 +108,31 @@
               }
             },
             {
-              "id": "ef5aca1c-2ee3-3053-bbd3-f57fe02a40b1",
+              "id": "801de2a5-291b-3f54-952f-b241535e1e2c",
+              "name": "resources.rules.return-not-in-function",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.return-not-in-function"
+              },
+              "fullDescription": {
+                "text": "`return` only makes sense inside a function"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "`return` only makes sense inside a function\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "`return` only makes sense inside a function\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.return-not-in-function"
+                ]
+              }
+            },
+            {
+              "id": "d30e1513-a702-32b1-aba7-db7f40e48de8",
               "name": "resources.rules.return-not-in-function",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.return-not-in-function"
@@ -156,7 +204,7 @@
               }
             },
             {
-              "id": "d30e1513-a702-32b1-aba7-db7f40e48de8",
+              "id": "b81d1bc8-dbac-3d61-b074-db5a6a9bdfac",
               "name": "resources.rules.return-not-in-function",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.return-not-in-function"
@@ -228,30 +276,6 @@
               }
             },
             {
-              "id": "b81d1bc8-dbac-3d61-b074-db5a6a9bdfac",
-              "name": "resources.rules.return-not-in-function",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.return-not-in-function"
-              },
-              "fullDescription": {
-                "text": "`return` only makes sense inside a function"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "warning"
-              },
-              "help": {
-                "text": "`return` only makes sense inside a function\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "`return` only makes sense inside a function\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "resources.rules.return-not-in-function"
-                ]
-              }
-            },
-            {
               "id": "50d89f00-9064-3306-9c88-91b30c3b0c42",
               "name": "resources.rules.return-not-in-function",
               "shortDescription": {
@@ -276,7 +300,7 @@
               }
             },
             {
-              "id": "dc7e9ed7-f4e5-3dd8-a34b-8c890f9045e8",
+              "id": "879946a2-428a-3dbb-8fc1-a5acbcf7554c",
               "name": "resources.rules.return-not-in-function",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.return-not-in-function"
@@ -300,7 +324,7 @@
               }
             },
             {
-              "id": "879946a2-428a-3dbb-8fc1-a5acbcf7554c",
+              "id": "dc7e9ed7-f4e5-3dd8-a34b-8c890f9045e8",
               "name": "resources.rules.return-not-in-function",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.return-not-in-function"
@@ -396,30 +420,6 @@
               }
             },
             {
-              "id": "9d905878-642c-3ae6-b0a5-0b2615273d37",
-              "name": "resources.rules.use-sys-exit",
-              "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.use-sys-exit"
-              },
-              "fullDescription": {
-                "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python"
-              },
-              "defaultConfiguration": {
-                "enabled": true,
-                "level": "warning"
-              },
-              "help": {
-                "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
-              },
-              "properties": {
-                "precision": "very-high",
-                "tags": [
-                  "resources.rules.use-sys-exit"
-                ]
-              }
-            },
-            {
               "id": "8163093e-a713-35fc-a947-91d4fe20049f",
               "name": "resources.rules.dlint-catastrophic-redos",
               "shortDescription": {
@@ -440,6 +440,30 @@
                 "precision": "very-high",
                 "tags": [
                   "resources.rules.dlint-catastrophic-redos"
+                ]
+              }
+            },
+            {
+              "id": "9d905878-642c-3ae6-b0a5-0b2615273d37",
+              "name": "resources.rules.use-sys-exit",
+              "shortDescription": {
+                "text": "Opengrep Finding: resources.rules.use-sys-exit"
+              },
+              "fullDescription": {
+                "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python"
+              },
+              "defaultConfiguration": {
+                "enabled": true,
+                "level": "warning"
+              },
+              "help": {
+                "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>"
+              },
+              "properties": {
+                "precision": "very-high",
+                "tags": [
+                  "resources.rules.use-sys-exit"
                 ]
               }
             },
@@ -492,7 +516,7 @@
               }
             },
             {
-              "id": "0fc2002f-b601-3496-952e-ccef5d329e12",
+              "id": "d7686cb2-f9ca-321b-94b6-b34aaa073e3e",
               "name": "resources.rules.raptor-suspicious-assert",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.raptor-suspicious-assert"
@@ -516,7 +540,7 @@
               }
             },
             {
-              "id": "d7686cb2-f9ca-321b-94b6-b34aaa073e3e",
+              "id": "0fc2002f-b601-3496-952e-ccef5d329e12",
               "name": "resources.rules.raptor-suspicious-assert",
               "shortDescription": {
                 "text": "Opengrep Finding: resources.rules.raptor-suspicious-assert"
@@ -564,26 +588,26 @@
               }
             },
             {
-              "id": "bea4e990-bad5-39ef-8afc-825c896d575a",
-              "name": "resources.rules.raptor-suspicious-assert",
+              "id": "ecf3b63b-ddce-3879-9868-b2abc0112de9",
+              "name": "resources.rules.raptor-signed-unsigned-conversion",
               "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.raptor-suspicious-assert"
+                "text": "Opengrep Finding: resources.rules.raptor-signed-unsigned-conversion"
               },
               "fullDescription": {
-                "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks."
+                "text": "The software uses a signed primitive and performs a cast to an unsigned primitive, or uses an unsigned primitive and performs a cast to a signed primitive, which can produce an unexpected value. When the result of a function is to be used as a size parameter, using negative return values can have unexpected results. Although less frequent an issue, unsigned-to-signed conversion can be  the precursor to buffer underwrite conditions. Buffer underwrites  occur frequently when large unsigned values are cast to signed values,  and then used as indexes into a buffer or for pointer arithmetic."
               },
               "defaultConfiguration": {
                 "enabled": true,
                 "level": "warning"
               },
               "help": {
-                "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://legends2k.github.io/note/assert_vs_if/](https://legends2k.github.io/note/assert_vs_if/)\n - [https://github.com/struct/mms](https://github.com/struct/mms)\n"
+                "text": "The software uses a signed primitive and performs a cast to an unsigned primitive, or uses an unsigned primitive and performs a cast to a signed primitive, which can produce an unexpected value. When the result of a function is to be used as a size parameter, using negative return values can have unexpected results. Although less frequent an issue, unsigned-to-signed conversion can be  the precursor to buffer underwrite conditions. Buffer underwrites  occur frequently when large unsigned values are cast to signed values,  and then used as indexes into a buffer or for pointer arithmetic.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "The software uses a signed primitive and performs a cast to an unsigned primitive, or uses an unsigned primitive and performs a cast to a signed primitive, which can produce an unexpected value. When the result of a function is to be used as a size parameter, using negative return values can have unexpected results. Although less frequent an issue, unsigned-to-signed conversion can be  the precursor to buffer underwrite conditions. Buffer underwrites  occur frequently when large unsigned values are cast to signed values,  and then used as indexes into a buffer or for pointer arithmetic.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://cwe.mitre.org/data/definitions/195](https://cwe.mitre.org/data/definitions/195)\n - [https://cwe.mitre.org/data/definitions/196](https://cwe.mitre.org/data/definitions/196)\n - [https://cwe.mitre.org/data/definitions/194](https://cwe.mitre.org/data/definitions/194)\n - [https://cwe.mitre.org/data/definitions/191](https://cwe.mitre.org/data/definitions/191)\n - [https://cwe.mitre.org/data/definitions/681](https://cwe.mitre.org/data/definitions/681)\n - [https://cwe.mitre.org/data/definitions/789](https://cwe.mitre.org/data/definitions/789)\n - [https://g.co/kgs/PCHQjJ](https://g.co/kgs/PCHQjJ)\n - [https://github.com/struct/mms](https://github.com/struct/mms)\n - [https://www.sei.cmu.edu/downloads/sei-cert-c-coding-standard-2016-v01.pdf](https://www.sei.cmu.edu/downloads/sei-cert-c-coding-standard-2016-v01.pdf)\n - [http://www.phrack.org/issues/60/10.html#article](http://www.phrack.org/issues/60/10.html#article)\n - [https://docs.microsoft.com/en-us/cpp/sanitizers/asan-error-examples](https://docs.microsoft.com/en-us/cpp/sanitizers/asan-error-examples)\n"
               },
               "properties": {
                 "precision": "very-high",
                 "tags": [
-                  "resources.rules.raptor-suspicious-assert"
+                  "resources.rules.raptor-signed-unsigned-conversion"
                 ]
               }
             },
@@ -612,26 +636,26 @@
               }
             },
             {
-              "id": "ecf3b63b-ddce-3879-9868-b2abc0112de9",
-              "name": "resources.rules.raptor-signed-unsigned-conversion",
+              "id": "bea4e990-bad5-39ef-8afc-825c896d575a",
+              "name": "resources.rules.raptor-suspicious-assert",
               "shortDescription": {
-                "text": "Opengrep Finding: resources.rules.raptor-signed-unsigned-conversion"
+                "text": "Opengrep Finding: resources.rules.raptor-suspicious-assert"
               },
               "fullDescription": {
-                "text": "The software uses a signed primitive and performs a cast to an unsigned primitive, or uses an unsigned primitive and performs a cast to a signed primitive, which can produce an unexpected value. When the result of a function is to be used as a size parameter, using negative return values can have unexpected results. Although less frequent an issue, unsigned-to-signed conversion can be  the precursor to buffer underwrite conditions. Buffer underwrites  occur frequently when large unsigned values are cast to signed values,  and then used as indexes into a buffer or for pointer arithmetic."
+                "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks."
               },
               "defaultConfiguration": {
                 "enabled": true,
                 "level": "warning"
               },
               "help": {
-                "text": "The software uses a signed primitive and performs a cast to an unsigned primitive, or uses an unsigned primitive and performs a cast to a signed primitive, which can produce an unexpected value. When the result of a function is to be used as a size parameter, using negative return values can have unexpected results. Although less frequent an issue, unsigned-to-signed conversion can be  the precursor to buffer underwrite conditions. Buffer underwrites  occur frequently when large unsigned values are cast to signed values,  and then used as indexes into a buffer or for pointer arithmetic.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
-                "markdown": "The software uses a signed primitive and performs a cast to an unsigned primitive, or uses an unsigned primitive and performs a cast to a signed primitive, which can produce an unexpected value. When the result of a function is to be used as a size parameter, using negative return values can have unexpected results. Although less frequent an issue, unsigned-to-signed conversion can be  the precursor to buffer underwrite conditions. Buffer underwrites  occur frequently when large unsigned values are cast to signed values,  and then used as indexes into a buffer or for pointer arithmetic.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://cwe.mitre.org/data/definitions/195](https://cwe.mitre.org/data/definitions/195)\n - [https://cwe.mitre.org/data/definitions/196](https://cwe.mitre.org/data/definitions/196)\n - [https://cwe.mitre.org/data/definitions/194](https://cwe.mitre.org/data/definitions/194)\n - [https://cwe.mitre.org/data/definitions/191](https://cwe.mitre.org/data/definitions/191)\n - [https://cwe.mitre.org/data/definitions/681](https://cwe.mitre.org/data/definitions/681)\n - [https://cwe.mitre.org/data/definitions/789](https://cwe.mitre.org/data/definitions/789)\n - [https://g.co/kgs/PCHQjJ](https://g.co/kgs/PCHQjJ)\n - [https://github.com/struct/mms](https://github.com/struct/mms)\n - [https://www.sei.cmu.edu/downloads/sei-cert-c-coding-standard-2016-v01.pdf](https://www.sei.cmu.edu/downloads/sei-cert-c-coding-standard-2016-v01.pdf)\n - [http://www.phrack.org/issues/60/10.html#article](http://www.phrack.org/issues/60/10.html#article)\n - [https://docs.microsoft.com/en-us/cpp/sanitizers/asan-error-examples](https://docs.microsoft.com/en-us/cpp/sanitizers/asan-error-examples)\n"
+                "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks.\n💎 Enable cross-file analysis and Pro rules for free at sg.run/pro",
+                "markdown": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks.\n\n#### 💎 Enable cross-file analysis and Pro rules for free at <a href='https://sg.run/pro'>sg.run/pro</a>\n\n<b>References:</b>\n - [https://legends2k.github.io/note/assert_vs_if/](https://legends2k.github.io/note/assert_vs_if/)\n - [https://github.com/struct/mms](https://github.com/struct/mms)\n"
               },
               "properties": {
                 "precision": "very-high",
                 "tags": [
-                  "resources.rules.raptor-signed-unsigned-conversion"
+                  "resources.rules.raptor-suspicious-assert"
                 ]
               }
             },
@@ -744,6 +768,37 @@
       "language": "en-US",
       "results": [
         {
+          "ruleId": "ef75cd3e-dd7f-380f-81a3-5556d6c4d054",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "`return` only makes sense inside a function"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "benchmarking/switchback/speed_benchmark.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 49,
+                  "endLine": 85,
+                  "endColumn": 64,
+                  "snippet": {
+                    "text": "                get_time(\"standard_gw\", lambda: g.t().matmul(x), info)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_1"
+          },
+          "properties": {}
+        },
+        {
           "ruleId": "c66b4dd7-503e-38d9-aeb0-b59eceba7f86",
           "kind": "fail",
           "level": "warning",
@@ -775,7 +830,7 @@
           "properties": {}
         },
         {
-          "ruleId": "ef75cd3e-dd7f-380f-81a3-5556d6c4d054",
+          "ruleId": "ef5aca1c-2ee3-3053-bbd3-f57fe02a40b1",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -789,19 +844,19 @@
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 85,
+                  "startLine": 86,
                   "startColumn": 49,
-                  "endLine": 85,
-                  "endColumn": 64,
+                  "endLine": 86,
+                  "endColumn": 60,
                   "snippet": {
-                    "text": "                get_time(\"standard_gw\", lambda: g.t().matmul(x), info)"
+                    "text": "                get_time(\"standard_gx\", lambda: g.matmul(w), info)"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_1"
+            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_2"
           },
           "properties": {}
         },
@@ -837,7 +892,7 @@
           "properties": {}
         },
         {
-          "ruleId": "ef5aca1c-2ee3-3053-bbd3-f57fe02a40b1",
+          "ruleId": "801de2a5-291b-3f54-952f-b241535e1e2c",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -851,19 +906,50 @@
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 86,
-                  "startColumn": 49,
-                  "endLine": 86,
-                  "endColumn": 60,
+                  "startLine": 89,
+                  "startColumn": 29,
+                  "endLine": 95,
+                  "endColumn": 22,
                   "snippet": {
-                    "text": "                get_time(\"standard_gx\", lambda: g.matmul(w), info)"
+                    "text": "                    lambda: int8_matmul_rowwise_dequantize(\n                        x_int8,\n                        w_int8.t(),\n                        state_x_rowwise,\n                        state_w_columnwise,\n                        None,\n                    ),"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_2"
+            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_3"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "d30e1513-a702-32b1-aba7-db7f40e48de8",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "`return` only makes sense inside a function"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "benchmarking/switchback/speed_benchmark.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 29,
+                  "endLine": 106,
+                  "endColumn": 22,
+                  "snippet": {
+                    "text": "                    lambda: int8_matmul_rowwise_dequantize(\n                        g_int8,\n                        wt_int8.t(),\n                        state_x_rowwise,\n                        state_w_rowwise,\n                        None,\n                    ),"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_4"
           },
           "properties": {}
         },
@@ -930,7 +1016,7 @@
           "properties": {}
         },
         {
-          "ruleId": "801de2a5-291b-3f54-952f-b241535e1e2c",
+          "ruleId": "b81d1bc8-dbac-3d61-b074-db5a6a9bdfac",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -944,19 +1030,19 @@
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 89,
-                  "startColumn": 29,
-                  "endLine": 95,
-                  "endColumn": 22,
+                  "startLine": 119,
+                  "startColumn": 56,
+                  "endLine": 119,
+                  "endColumn": 75,
                   "snippet": {
-                    "text": "                    lambda: int8_matmul_rowwise_dequantize(\n                        x_int8,\n                        w_int8.t(),\n                        state_x_rowwise,\n                        state_w_columnwise,\n                        None,\n                    ),"
+                    "text": "                get_time(\"x_quantize_rowwise\", lambda: quantize_rowwise(x), info)"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_3"
+            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_7"
           },
           "properties": {}
         },
@@ -1023,37 +1109,6 @@
           "properties": {}
         },
         {
-          "ruleId": "b81d1bc8-dbac-3d61-b074-db5a6a9bdfac",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "`return` only makes sense inside a function"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "benchmarking/switchback/speed_benchmark.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 119,
-                  "startColumn": 56,
-                  "endLine": 119,
-                  "endColumn": 75,
-                  "snippet": {
-                    "text": "                get_time(\"x_quantize_rowwise\", lambda: quantize_rowwise(x), info)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_7"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "50d89f00-9064-3306-9c88-91b30c3b0c42",
           "kind": "fail",
           "level": "warning",
@@ -1085,37 +1140,6 @@
           "properties": {}
         },
         {
-          "ruleId": "dc7e9ed7-f4e5-3dd8-a34b-8c890f9045e8",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "`return` only makes sense inside a function"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "benchmarking/switchback/speed_benchmark.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 123,
-                  "startColumn": 55,
-                  "endLine": 123,
-                  "endColumn": 73,
-                  "snippet": {
-                    "text": "                get_time(\"w_quantize_global\", lambda: quantize_global(w), info)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_11"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "879946a2-428a-3dbb-8fc1-a5acbcf7554c",
           "kind": "fail",
           "level": "warning",
@@ -1143,6 +1167,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_12"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "dc7e9ed7-f4e5-3dd8-a34b-8c890f9045e8",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "`return` only makes sense inside a function"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "benchmarking/switchback/speed_benchmark.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 55,
+                  "endLine": 123,
+                  "endColumn": 73,
+                  "snippet": {
+                    "text": "                get_time(\"w_quantize_global\", lambda: quantize_global(w), info)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "68df4eddcd65817e79943c8599556470eb89aa26c3b98e79f24aabbce2ae0a5a13f06268ab6c838f1251f93036f115d1d03652d3158bea6d90645e3ef3705128_11"
           },
           "properties": {}
         },
@@ -1240,37 +1295,6 @@
           "properties": {}
         },
         {
-          "ruleId": "9d905878-642c-3ae6-b0a5-0b2615273d37",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python"
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "bitsandbytes/nn/triton_based_modules.py",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 177,
-                  "startColumn": 17,
-                  "endLine": 177,
-                  "endColumn": 24,
-                  "snippet": {
-                    "text": "                exit(1)"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "92f8d972220088d3cef44d864d75e6b17b066709b4f6095c826b5c72523f8d60ffd843ba2d88a0c808d0e678da43dfb0eb69deac1fb8de0bc66000c247e00197_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "8163093e-a713-35fc-a947-91d4fe20049f",
           "kind": "fail",
           "level": "warning",
@@ -1298,6 +1322,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "5f9021f86679ec748d75e4a881ffefc8bd2e74515058ab2745e79e14033d77812a0e6b9b52e9704bd47fe7c16703dfcea1748c20cc8b4ba7d780eefeafdbd2ea_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "9d905878-642c-3ae6-b0a5-0b2615273d37",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Use `sys.exit` over the python shell `exit` built-in. `exit` is a helper for the interactive shell and may not be available on all Python implementations. https://stackoverflow.com/questions/6501121/difference-between-exit-and-sys-exit-in-python"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bitsandbytes/nn/triton_based_modules.py",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 17,
+                  "endLine": 177,
+                  "endColumn": 24,
+                  "snippet": {
+                    "text": "                exit(1)"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "92f8d972220088d3cef44d864d75e6b17b066709b4f6095c826b5c72523f8d60ffd843ba2d88a0c808d0e678da43dfb0eb69deac1fb8de0bc66000c247e00197_0"
           },
           "properties": {}
         },
@@ -1364,37 +1419,6 @@
           "properties": {}
         },
         {
-          "ruleId": "0fc2002f-b601-3496-952e-ccef5d329e12",
-          "kind": "fail",
-          "level": "warning",
-          "message": {
-            "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "include/Algo-Direct-Common.h",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 132,
-                  "startColumn": 9,
-                  "endLine": 138,
-                  "endColumn": 10,
-                  "snippet": {
-                    "text": "        myassert((ifmax.s < std::numeric_limits<uint32>::max() - (Gap - 1)),\n            \"Problem unfeasible: index size exceeds uint32 capacity:\"\n            << \" H X[0] =\" << H_Times_x0\n            << \", H =\" << scaler\n            << \", X[N] =\" << xN\n            << \", H X[N] - H X[0] =\" << ifmax.s << \"\\n\"\n        );"
-                  }
-                }
-              }
-            }
-          ],
-          "fingerprints": {
-            "matchBasedId/v1": "cf0cb68b9a45c28fddf39dd5e6f8709e204c5862bf691523c4f7bcd516773c4785026928b4553c2346926ed0b20dd26c80cb558d65c02b611ca4c7d6bf98e67c_0"
-          },
-          "properties": {}
-        },
-        {
           "ruleId": "d7686cb2-f9ca-321b-94b6-b34aaa073e3e",
           "kind": "fail",
           "level": "warning",
@@ -1422,6 +1446,37 @@
           ],
           "fingerprints": {
             "matchBasedId/v1": "67054fd797f1289fe0a62c16c6d444ea1555b9b7a720830ffa8a6b34137c950e6bb6d2891fbb47027e7c9afd85c4f1861eba384a6ea5f12e0c8aebf9c2cdb6c7_0"
+          },
+          "properties": {}
+        },
+        {
+          "ruleId": "0fc2002f-b601-3496-952e-ccef5d329e12",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "include/Algo-Direct-Common.h",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 9,
+                  "endLine": 138,
+                  "endColumn": 10,
+                  "snippet": {
+                    "text": "        myassert((ifmax.s < std::numeric_limits<uint32>::max() - (Gap - 1)),\n            \"Problem unfeasible: index size exceeds uint32 capacity:\"\n            << \" H X[0] =\" << H_Times_x0\n            << \", H =\" << scaler\n            << \", X[N] =\" << xN\n            << \", H X[N] - H X[0] =\" << ifmax.s << \"\\n\"\n        );"
+                  }
+                }
+              }
+            }
+          ],
+          "fingerprints": {
+            "matchBasedId/v1": "cf0cb68b9a45c28fddf39dd5e6f8709e204c5862bf691523c4f7bcd516773c4785026928b4553c2346926ed0b20dd26c80cb558d65c02b611ca4c7d6bf98e67c_0"
           },
           "properties": {}
         },
@@ -1457,11 +1512,11 @@
           "properties": {}
         },
         {
-          "ruleId": "bea4e990-bad5-39ef-8afc-825c896d575a",
+          "ruleId": "ecf3b63b-ddce-3879-9868-b2abc0112de9",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks."
+            "text": "The software uses a signed primitive and performs a cast to an unsigned primitive, or uses an unsigned primitive and performs a cast to a signed primitive, which can produce an unexpected value. When the result of a function is to be used as a size parameter, using negative return values can have unexpected results. Although less frequent an issue, unsigned-to-signed conversion can be  the precursor to buffer underwrite conditions. Buffer underwrites  occur frequently when large unsigned values are cast to signed values,  and then used as indexes into a buffer or for pointer arithmetic."
           },
           "locations": [
             {
@@ -1471,19 +1526,19 @@
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 231,
-                  "startColumn": 13,
-                  "endLine": 237,
-                  "endColumn": 14,
+                  "startLine": 251,
+                  "startColumn": 16,
+                  "endLine": 251,
+                  "endColumn": 24,
                   "snippet": {
-                    "text": "            myassert((Dnew > Dold),\n                \"Problem unfeasible: D_i sequence not strictly increasing\"\n                << \" X[\" << 0 << \"]=\" << x0\n                << \" X[\" << i - Gap << \"]=\" << px[i - Gap]\n                << \" X[\" << i << \"]=\" << px[i]\n                << \"\\n\"\n            );"
+                    "text": "        size_t nInc = 0;"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "d9bfd7501470d18fee1265382a4b1c1c2a582eb9970756fe71bb7271c6b4dea4509ceb0e83c1958c5152fc70911e2660b8919c24842e0d559615e65774a17ed5_0"
+            "matchBasedId/v1": "35515224f94b2d54bcfaf0a0072a90914afe35be0f57f8cb61abbad17a06d9b02863d3c624a1a0997df849446643087801445787cf09c23e8deb952a194787b8_0"
           },
           "properties": {}
         },
@@ -1519,11 +1574,11 @@
           "properties": {}
         },
         {
-          "ruleId": "ecf3b63b-ddce-3879-9868-b2abc0112de9",
+          "ruleId": "bea4e990-bad5-39ef-8afc-825c896d575a",
           "kind": "fail",
           "level": "warning",
           "message": {
-            "text": "The software uses a signed primitive and performs a cast to an unsigned primitive, or uses an unsigned primitive and performs a cast to a signed primitive, which can produce an unexpected value. When the result of a function is to be used as a size parameter, using negative return values can have unexpected results. Although less frequent an issue, unsigned-to-signed conversion can be  the precursor to buffer underwrite conditions. Buffer underwrites  occur frequently when large unsigned values are cast to signed values,  and then used as indexes into a buffer or for pointer arithmetic."
+            "text": "Most codebases define assertion macros which compile to a no-op on non-debug builds. If assertions are the only line of defense against untrusted input, the software may be exposed to attacks that leverage the lack of proper input checks."
           },
           "locations": [
             {
@@ -1533,19 +1588,19 @@
                   "uriBaseId": "%SRCROOT%"
                 },
                 "region": {
-                  "startLine": 251,
-                  "startColumn": 16,
-                  "endLine": 251,
-                  "endColumn": 24,
+                  "startLine": 231,
+                  "startColumn": 13,
+                  "endLine": 237,
+                  "endColumn": 14,
                   "snippet": {
-                    "text": "        size_t nInc = 0;"
+                    "text": "            myassert((Dnew > Dold),\n                \"Problem unfeasible: D_i sequence not strictly increasing\"\n                << \" X[\" << 0 << \"]=\" << x0\n                << \" X[\" << i - Gap << \"]=\" << px[i - Gap]\n                << \" X[\" << i << \"]=\" << px[i]\n                << \"\\n\"\n            );"
                   }
                 }
               }
             }
           ],
           "fingerprints": {
-            "matchBasedId/v1": "35515224f94b2d54bcfaf0a0072a90914afe35be0f57f8cb61abbad17a06d9b02863d3c624a1a0997df849446643087801445787cf09c23e8deb952a194787b8_0"
+            "matchBasedId/v1": "d9bfd7501470d18fee1265382a4b1c1c2a582eb9970756fe71bb7271c6b4dea4509ceb0e83c1958c5152fc70911e2660b8919c24842e0d559615e65774a17ed5_0"
           },
           "properties": {}
         },
